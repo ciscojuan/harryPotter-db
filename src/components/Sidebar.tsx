@@ -5,28 +5,10 @@ import { IoIosPerson } from "react-icons/io";
 
 const navItems = [
   {
-    title: "Books",
-    path: "/books",
-    icon: <IoBook size={30} />,
-    subTitle: "Un vistazo alos libros ",
-  },
-  {
     title: "Characters",
     path: "/characters",
     icon: <IoIosPerson size={30} />,
     subTitle: "Magos y Creaturas de la saga",
-  },
-  {
-    title: "Movies",
-    path: "/movies",
-    icon: <IoFilm size={30} />,
-    subTitle: "Peliculas de la saga",
-  },
-  {
-    title: "Potions",
-    path: "/potions",
-    icon: <IoFlask size={30} />,
-    subTitle: "Elixires y menjurges",
   },
   {
     title: "Spells",

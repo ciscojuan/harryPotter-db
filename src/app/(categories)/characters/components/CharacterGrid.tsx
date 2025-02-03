@@ -1,4 +1,4 @@
-import { SimpleCharacter } from "@/character/interfaces";
+import { SimpleCharacter } from "@/app/(categories)/characters/interfaces";
 import { CharacterCard } from "./CharacterCard";
 
 interface Props {

@@ -6,14 +6,15 @@ interface Props {
 }
 export default function SpellGridPage({ spells }: Props) {
 
+  console.log(spells);
   return (
     <div>
-      <h1 className="text-4xl text-center">Harry Potter Spells</h1>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="flex flex-wrap items-center justify-center">
         {spells.map((spell) => (
           <div key={spell.id} className="bg-white p-4 rounded-lg shadow-md">
-          <SpellCard spell={spells}/>
+            <span>
+              <SpellCard spell={spell} />
+            </span>
           </div>
         ))}
       </div>
